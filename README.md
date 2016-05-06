@@ -10,7 +10,7 @@ See [https://metacpan.org/pod/distribution/Module](https://metacpan.org/pod/dist
 
 # USAGE
 
-    $ sparrow plg run module-release --param options='-t -p' --param local_file=FOO --param remote_file=BAR
+    $ sparrow plg run module-release --param options='-t -p -k -d' --param path=/foo/bar/baz
 
 # Author
 

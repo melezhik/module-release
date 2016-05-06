@@ -1,12 +1,10 @@
-cd $test_root_dir
-
-touch releaserc
-
 export PERL5LIB=$project_root_dir/local/lib/perl5:$PERL5LIB
 export PATH=$project_root_dir/local/bin:$PATH
 
+cd $(config path)
+touch releaserc
 
-release $(config options) $(config local_file) $(config remote_file)
+release $(config options) && echo 'done!'
 
-echo done
+
 
