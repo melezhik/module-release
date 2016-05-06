@@ -1,0 +1,2 @@
+requires "Module::Release";
+
